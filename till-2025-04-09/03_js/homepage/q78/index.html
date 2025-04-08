@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="a.css">
+        <script src="common.js"> </script>
+        <script src="index.js"> </script>
+        <title>DOM</title>
+    </head>
+    <body>
+        <!-- // id	pw	를 입력 받는 폼을 만들기		 -->
+        <div id="box">
+            <div id="login_box">
+                <form>
+                    <table>
+                        <tr>
+                            <td>id:</td>
+                            <td><input id="id" placeholder="아이디" size="14"><br></td>
+                        </tr>
+                        <tr>
+                            <td>pw:</td>
+                            <td><input id="pw" type="password" placeholder="암호" size="14"><br></td>
+                        </tr>
+                    </table>
+                    <input type="button" onclick="login()" value="로그인">
+                    <a href="reg_member.html"> <input type="button" value="회원가입"> </a><!-- 회원가입 페이지로 링크 이동 -->
+                    <div id="x"></div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>

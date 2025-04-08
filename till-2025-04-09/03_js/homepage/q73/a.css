@@ -1,0 +1,7 @@
+#login_box{
+    width:300px;
+    height:200px;
+    background-color: pink;
+    border: red 1px dashed;
+    border-radius: 20px;
+}

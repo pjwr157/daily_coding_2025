@@ -1,0 +1,28 @@
+#box{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_box{
+    width:300px;
+    height:200px;
+    background-color: pink;
+    border: red 1px dashed;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 50px 105px 50px;
+}
+
+#x{
+    width:240px;
+    height:30px;
+    background-color: violet;
+}

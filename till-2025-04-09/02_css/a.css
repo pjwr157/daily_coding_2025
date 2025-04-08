@@ -1,0 +1,29 @@
+#x{
+    display: flex;
+}
+
+#a{
+    background-color: red;
+    flex-basis: 10%;
+    height:100px;
+}
+#b{
+    background-color: orange;
+    flex-basis: 30%;
+    height:100px;
+}
+#c{
+    background-color: yellow;
+    flex-basis: 20%;
+    height:100px;
+}
+#d{
+    background-color: green;
+    flex-basis: 20%;
+    height:100px;
+}
+#e{
+    background-color: blue;
+    flex-basis: 20%;
+    height:100px;
+}

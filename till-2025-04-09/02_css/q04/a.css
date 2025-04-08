@@ -1,0 +1,26 @@
+#x {
+    display: flex;
+    height: 100px;
+}
+
+#a {
+    background-color: red;
+    width: 100px;
+}
+#b {
+    background-color: orange;
+    width: 400%;
+}
+#c {
+    background-color: yellow;
+    width: 100px;
+}
+#d {
+    background-color: green;    
+    width: 100px;
+}
+#e {
+    background-color: blue;
+    width: 100px;
+}
+

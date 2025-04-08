@@ -1,0 +1,22 @@
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+    /* height: 800px; */
+    background-color: gold;
+}
+#login_box {
+    width: 260px;     
+    background-color: pink;
+    border: 5px blue solid;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    box-shadow: 50px 50px 50px;
+}
+#btn {
+    box-shadow: 10px 10px 10px;
+}
+
