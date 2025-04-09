@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+}
+
+.horse {
+    position: relative;
+    margin: 30px;
+    font-size: 24px;
+}
+
+#track{
+    position: absolute;
+    width: 100%;
+    padding: 80px;
+    background-color: sienna;
+    border-radius: 10px;
+}
