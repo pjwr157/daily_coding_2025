@@ -1,0 +1,9 @@
+cd ~/Desktop/daily_coding_2025
+mkdir till-2025-04-09
+cd till-2025-04-09
+
+# VS Code로 공부한 내용 저장
+
+git add .
+git commit -m "2025-04-09까지 누적 학습 내용 추가"
+git push origin main
