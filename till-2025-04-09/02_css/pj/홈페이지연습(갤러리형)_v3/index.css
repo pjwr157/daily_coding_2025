@@ -1,0 +1,146 @@
+body {
+    background-image: url('https://upload3.inven.co.kr/upload/2021/02/25/bbs/i15745445892.jpg');
+}
+#myLayout {
+    background-color: cornflowerblue;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top {
+    background-color: red;
+    width : 1600px; height: 120px;
+    display: flex;
+}
+
+    #top_left{
+        background-color: green;
+        position:absolute;    
+    }
+
+        #logo {
+            width: 100px; height: 100px; margin: 10px;
+            float: left;
+        }
+        #homepage_name {
+            font-size: 1.2em; font-style: italic; font-weight: 600;
+            color :brown;
+            float: left;
+            margin-top: 60px;
+        }
+
+    #top_banner {
+        width: 1600px;
+        height: 120px;
+        background-color: pink;    
+        text-align: center;
+    }
+
+
+#nav {
+    background-color: gray;
+    width: 1600px;
+    height: 30px;
+    display: flex;
+    justify-content: center;    /* 수평(가로) 정렬이 가운데로 됨 */
+    align-items: center;        /* 수직(세로) 정렬이 가운데로 됨 */
+}
+
+    #nav_content{
+        background-color: red;
+    }
+
+#mid {
+    background-color: yellow;
+    height : 800px;
+    display: flex;
+}
+    #mid_left {
+        background-color: orange;
+        width : 200px;
+    }
+    #mid_mid {
+        background-color: yellow;
+        width: 1200px;
+    }
+    #mid_right {
+        background-color: green;
+        width: 200px;
+    }
+    
+#bot {
+    background-color: blue; 
+    width: 1600px; height: 200px;
+    position: fixed;
+    bottom: 10px;
+
+    font-size: 0.8em;
+    color: gray; 
+}
+
+
+
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#login {
+    width: 160px;
+    height: 80px;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+    #login_id {
+        width: 80px;
+    }
+
+    #login_pw {
+        width: 80px;
+    }
+
+#board {
+    background-color: red;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;    
+}    
+
+    .board_title {
+        color:chartreuse;
+        font-size: 1.2em;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;        
+    }
+
+#proud {
+    background-color: pink;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;   
+
+}
+
+.mid_img_box {
+    width:200px;
+    height: 200px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+.right_banner {
+    width: 160px;    
+}

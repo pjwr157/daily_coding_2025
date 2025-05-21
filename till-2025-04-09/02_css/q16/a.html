@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid 연습</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4개의 열 생성 */
+      grid-template-rows: repeat(3, 150px); /* 3개의 행 생성 */
+      gap: 10px; /* 칸 사이 간격 */
+      width: 80%;
+      height: 100vh;
+      margin: 50px auto;
+      background-color: black;
+    }
+
+    .grid-item {
+      background-color: #ffd6e0;
+      border: 2px solid #ff69b4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">🎯 CSS Grid 연습</h1>
+
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+  </div>
+</body>
+</html>

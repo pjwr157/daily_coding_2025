@@ -1,0 +1,35 @@
+#top {
+    display: flex;
+    height: 200px;
+}
+
+#top_left {
+    width: 200px;
+    background-color: red;
+}
+
+#top_right {
+    width: 600px;
+    background-color: orange;
+}
+
+#mid {
+    width: 800px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#bot {
+    display: flex;
+    height: 600px;
+}
+
+#bot_left {
+    width: 200px;
+    background-color: green;
+}
+
+#bot_right {
+    width: 600px;
+    background-color: blue;
+}

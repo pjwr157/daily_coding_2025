@@ -1,0 +1,112 @@
+/* 
+    css 주석:
+
+        위에 슬래쉬 곱하기 부터 아래 곱하기 슬래쉬 까지가 css 주석 임.
+        이 비쥬얼 스튜디오 같은 개발도구 상에 이런 주석 부분은 이렇게 녹색으로 표시됨
+        ( 대부분 개발도구가 이렇게 표현 해줌 )
+        
+        여기엔 아무거나 써도 해당 파일에 아무 영향을 안줌.
+        그래서 개발자가 이런 저런 설명을 쓰는데 씀.
+
+
+    아래 css 설명:
+    
+        가장 바깥쪽 전체를 감싼 div 영역 ( id 값이 box 인 ) 에 display 속성에 flex 값을 준 것.
+        그래서 해당 box div 가 감싼 div 들 (
+*/
+#box{
+    display: flex;
+}
+
+/* 
+    좌 
+    메인영역
+*/
+#left_main{
+    background-color: red;
+    width: 500px;
+    height: 600px;
+}
+
+/* 
+    우
+    우측배너영역
+*/
+#right_banners{
+    background-color: orange;
+    width:100px;
+    height: 600px;
+    float: left;
+}
+
+#top{
+    background-color: yellow;
+    width:500px;
+    height: 100px;
+}
+/* 중앙 메뉴 영역 */
+#mid{
+    background-color: green;
+    width:500px;
+    height: 50px;
+}
+#bot{
+    background-color: blue;
+    width:500px;
+    height: 450px;
+}
+#logo{
+    background-color: pink;
+    width:200px;
+    height: 100px;
+    float:left;
+}
+#main_banner{
+    background-color: purple;
+    width: 300px;
+    height:100px;
+    float:left;
+}
+#mid_menu_1{
+    background-color: gold;  
+    height:50px;
+    width:100px;
+    float: left;
+}
+#mid_menu_2{
+    background-color:aqua;  
+    height:50px;
+    width:100px;
+    float: left;
+}
+#mid_menu_3{
+    background-color:deepskyblue; 
+    height:50px;
+    width:100px;
+    float: left;
+}
+#mid_menu_4{
+    background-color:darkblue; 
+    height:50px;
+    width:100px;
+    float: left;
+}
+#mid_menu_5{
+    background-color:salmon; 
+    height:50px;
+    width:100px;
+    float: left;
+}
+#bot_left_menu{
+    background-color:skyblue; 
+    width:100px;
+    height:450px;
+    float: left;
+}
+#bot_content{
+    background-color:seagreen; 
+    width:400px;
+    height:450px;
+    float: left;
+}
+

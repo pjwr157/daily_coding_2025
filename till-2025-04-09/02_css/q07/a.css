@@ -1,0 +1,84 @@
+div {
+  width: 50px;
+  height: 50px;
+}
+
+#s_1 {
+  background-color: red;
+  position: static; /* 기본형이라서 이거 쓰나 안쓰나 같음 */
+  left: 100px;    /* 안통함 */
+  top: 100px;     /* 안통함 */
+}
+#s_2 {
+  background-color: orange;
+  /* position: static; 기본형이라서 이거 쓰나 안쓰나 같음 */
+}
+#s_3 {
+  background-color: yellow;
+  position: static;
+}
+
+#r_1 {
+  background-color: red;
+  position: relative; /* left, right, top, bottom 가능 */
+  left: 50px;    /* 통함 */    
+}
+#r_2 {
+  background-color: orange;
+  position: relative; /* left, right, top, bottom 가능 */    
+  right: 50px;
+}
+#r_3 {
+  background-color: yellow;
+  position: relative; /* left, right, top, bottom 가능 */
+}
+#r_4 {
+  background-color: green;
+  position: relative; /* left, right, top, bottom 가능 */
+  top: 20px;
+}
+#r_5 {
+  background-color: blue;
+  position: relative; /* left, right, top, bottom 가능 */    
+}
+#r_6 {
+  background-color: pink;
+  position: relative; /* left, right, top, bottom 가능 */        
+}
+#r_7 {
+  background-color: purple;
+  position: relative; /* left, right, top, bottom 가능 */        
+  bottom: 75px;
+  left: 25px;
+}
+
+#a_area_1 {
+  position: absolute;
+  background-color: gray;
+  left: 50px;
+  top: 50px;
+  width:300px;
+  height:600px;
+}
+
+#a_1 {
+  background-color: mediumaquamarine;
+  position: absolute;
+  bottom: 0px;    
+  right: 0px;
+  
+}
+
+#f_1 {
+  background-color: black;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+}
+
+#s_11 {
+  background-color: red;
+  width: 100px;
+  height: 1000px;
+}

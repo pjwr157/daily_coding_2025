@@ -1,0 +1,15 @@
+img {
+    width : 30px ;
+}
+
+#goldcat {
+    border-style: solid;
+    border-color: gold;
+    border-width: 7px;
+
+}
+
+#t{
+    width:400px;
+    height:300px;
+}

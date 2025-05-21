@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>    
+    <link rel="stylesheet" href="main.css">
+    <script src="common.js"> </script>
+    <script src="main.js"> </script>
+
+</head>
+<body>
+
+    <input id="rpc_input_text" type="text" placeholder="가위,바위,보 입력">
+    <input id="rpc_input_button" type="button" value="누르세요" onclick="rpcInputButtonClick();">
+    <br><br>
+    <textarea id="rpc_result_screen" placeholder="결과화면"></textarea>
+    <!-- 결과 화면(이미지) -->
+    <div id="screen">
+        <div id="rpc_user"></div>
+        <div id="rpc_vs"></div>
+        <div id="rpc_com"></div>
+    </div>
+
+</body>    
+</html>

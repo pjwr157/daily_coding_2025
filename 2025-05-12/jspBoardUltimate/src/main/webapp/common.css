@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h3 {
+  color: #2c3e50;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Form */
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"],
+button,
+.btn-submit {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.btn-submit:hover {
+  background-color: #005f99;
+}
+
+.btn-secondary,
+.btn-back,
+.btn-edit,
+.btn-delete {
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  padding: 8px 14px;
+  background-color: #ddd;
+  color: #333;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+/* Comments */
+.comment-section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.comment-item {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.comment-form textarea {
+  margin-bottom: 10px;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a,
+.pagination strong {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #eee;
+  color: #333;
+}
+
+.pagination strong {
+  background-color: #007acc;
+  color: white;
+}
+
+.pagination a:hover {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  input[type="submit"],
+  .btn-submit,
+  .btn-secondary,
+  .btn-back,
+  .btn-edit,
+  .btn-delete {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  table,
+  form {
+    font-size: 14px;
+  }
+}

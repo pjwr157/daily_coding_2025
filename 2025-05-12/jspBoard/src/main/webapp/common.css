@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+  background-color: #dff0ff;
+  font-family: Arial, sans-serif;
+  color: #333; 
+  margin: 20px; 
+}
+
+label {
+  display: inline-block;
+  width: 60px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+textarea {
+  display: inline-block;
+  vertical-align: top;
+}
+
+input, textarea {
+  font-family: inherit; 
+  padding: 5px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #0066cc; 
+  color: white; 
+  border: none;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #005bb5; 
+}
